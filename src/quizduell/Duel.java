@@ -20,7 +20,7 @@ public class Duel {
 	 */
 	@Override
 	public String toString() {
-		return "Duel [users=" + users + "]";
+		return "Duel with "+users.get(0).getName() + " vs " + users.get(1).getName();
 	}
 	
 	
